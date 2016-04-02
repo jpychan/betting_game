@@ -1,1 +1,72 @@
-My Page
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Betting Game</title>
+  <script type="text/javascript" src="javascript/jquery-2.2.1.min.js"></script>
+  <script type="text/javascript" src="javascript/betting_game_ui.js"></script>
+  <link href="css/normalize.css" rel="stylesheet" type="text/css">
+  <link href="css/skeleton.css" rel="stylesheet" type="text/css">
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+  <div class="container">
+
+    <div class="row title">
+      <h1>The Odds are NOT with You</h1>
+    </div>
+
+
+    <div id= "game-area" class="row game-area">
+
+      <div id="pot" class="four columns text-center">
+        <h1>Your Pot</h1>
+        <img class="pot-image" src="images/gold_pot.png" width="200px">
+        <h1 id="pot-amount">100</h1>
+        <h1 id="display-bet" class="no-display can-move"></h1>
+      </div>
+
+      <div id="input" class="four columns text-center">
+        <h1>Your Input</h1>
+        <h3>Your Bet</h3>
+        <h3 id="bet-amount"></h3>
+        <div id="your-bet-input">
+          <label id="bet-amount">Place a bet between $5-$10.</label>
+          <input type="number" id="bet-amount" name="bet-amount">
+        </div>
+        <div id="guess">
+
+          <h3>Your Guess</h3>
+          <h3 id="your-guess"></h3>
+          <div id="your-guess-input">
+            <label id="your-guess">Pick a number between 1 and 10.</label>
+            <input type="number" id="your-guess" name="your-guess">
+          </div>
+          <div id="bet-submit">
+            <button type="submit" class="animated-button thar-one">Place Your Bet!</button>
+          </div>
+          <div id="replay" class="no-display">
+            <button id="play-again" class="animated-button thar-two">Make another bet!</button>
+          </div>
+        </div>
+
+      </div>
+
+      <div id="output" class="four columns text-center">
+        <div id="answer">
+          <h1>Results</h1>
+          <h3 class="no-display">The Number</h3>
+          <h3 id="the-number" class="no-display"></h3>
+        </div>
+        <div id="result">
+          <h3></h3>
+        </div>
+
+        <div id="reset">
+          <button type="reset" class="animated-button thar-three">Reset!</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

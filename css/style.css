@@ -1,0 +1,190 @@
+@import url(https://fonts.googleapis.com/css?family=Special+Elite);
+body {
+  background-image:url(../images/stardust.png);
+  color: #eeeeee;
+}
+
+
+.title {
+  text-align:center;
+  font-family: 'Special Elite', cursive;
+  padding: 30px 0 0 30px;
+}
+
+.title h1 {
+  font-size: 60px;
+}
+
+.container {
+  margin-top: 30px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.no-display {
+  display:none;
+}
+
+.can-move {
+  position: relative;
+  bottom: 150px;
+}
+
+.move-up {
+  bottom: 250px;
+}
+
+#display-bet {
+  transition: all 3s linear;
+}
+
+.red {
+  color:red;
+}
+
+.green {
+  color: green;
+}
+input {
+  color: #333333;
+}
+
+button {
+  color: #FB6542;
+  border-color: #FB6542;
+  font-size: 24px;
+  padding: 10px;
+  height: auto;
+  margin: auto;
+}
+
+.animated-button.thar-one {
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  position: relative;
+  border: 2px solid #F7CA18;
+  transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+}
+.animated-button.thar-one:hover {
+  color: #000 !important;
+  background-color: transparent;
+  text-shadow: none;
+}
+.animated-button.thar-one:hover:before {
+  bottom: 0%;
+  top: auto;
+  height: 100%;
+}
+.animated-button.thar-one:before {
+  display: block;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  height: 0px;
+  width: 100%;
+  z-index: -1;
+  content: '';
+  color: #000 !important;
+  background: #F7CA18;
+  transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+}
+.animated-button.thar-two {
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  position: relative;
+  border: 2px solid #F7CA18;
+  transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+}
+.animated-button.thar-two:hover {
+  color: #000 !important;
+  background-color: transparent;
+  text-shadow: ntwo;
+}
+.animated-button.thar-two:hover:before {
+  top: 0%;
+  bottom: auto;
+  height: 100%;
+}
+.animated-button.thar-two:before {
+  display: block;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  height: 0px;
+  width: 100%;
+  z-index: -1;
+  content: '';
+  color: #000 !important;
+  background: #F7CA18;
+  transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+}
+.animated-button.thar-three {
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  position: relative;
+  border: 2px solid #F7CA18;
+  transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+0s;
+}
+.animated-button.thar-three:hover {
+  color: #000 !important;
+  background-color: transparent;
+  text-shadow: nthree;
+}
+.animated-button.thar-three:hover:before {
+  left: 0%;
+  right: auto;
+  width: 100%;
+}
+.animated-button.thar-three:before {
+  display: block;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  height: 100%;
+  width: 0px;
+  z-index: -1;
+  content: '';
+  color: #000 !important;
+  background: #F7CA18;
+  transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+0s;
+}
+.animated-button.thar-four {
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  position: relative;
+  border: 2px solid #F7CA18;
+  transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+0s;
+}
+.animated-button.thar-four:hover {
+  color: #000 !important;
+  background-color: transparent;
+  text-shadow: nfour;
+}
+.animated-button.thar-four:hover:before {
+  right: 0%;
+  left: auto;
+  width: 100%;
+}
+.animated-button.thar-four:before {
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 0px;
+  z-index: -1;
+  content: '';
+  color: #000 !important;
+  background: #F7CA18;
+  transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+0s;
+}
