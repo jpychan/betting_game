@@ -4,6 +4,16 @@ body {
   color: #eeeeee;
 }
 
+a {
+  color: #F7CA18;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #eee;
+  text-decoration: underline;
+}
+
 
 .title {
   text-align:center;
@@ -36,6 +46,9 @@ body {
   bottom: 250px;
 }
 
+#game-area {
+  clear:both;
+}
 #display-bet {
   transition: all 3s linear;
 }
