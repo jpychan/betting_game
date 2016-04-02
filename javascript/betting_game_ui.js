@@ -2,6 +2,11 @@
 
 $(document).ready(function() {
 
+  $('#rules-btn').on('click', function() {
+    $('#rule-details').slideToggle();
+  });
+
+
   var pot = 100;
   var potSize = 200;
 
@@ -93,6 +98,9 @@ $(document).ready(function() {
       setTimeout(function() {
         $('#display-bet').addClass('no-display');}, 3000);
   };
+
 });
+
+
 
 })();

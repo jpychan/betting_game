@@ -54,8 +54,8 @@ input {
 button {
   color: #FB6542;
   border-color: #FB6542;
-  font-size: 24px;
-  padding: 10px;
+  font-size: 20px;
+  padding: 5px 10px;
   height: auto;
   margin: auto;
 }
@@ -187,4 +187,24 @@ button {
   background: #F7CA18;
   transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
 0s;
+}
+
+#rules {
+  clear: both;
+  padding: 20px 0;
+  text-align: left;
+}
+
+#rules button {
+  margin: 0;
+}
+
+#rule-details {
+  padding: 20px;
+}
+
+footer {
+  padding-top: 10px;
+  text-align: center;
+  border-top: 1px solid #fff;
 }
